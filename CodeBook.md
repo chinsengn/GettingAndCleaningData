@@ -20,12 +20,6 @@ denotes the 6 activities performed
 - STANDING, 
 - LAYING
 
-
-| Name | Description          |
-| ------------- | ----------- |
-| Help      | ~~Display the~~ help window.|
-| Close     | _Closes_ a window     |
-
 ___
 
 #### The following 79 fields are the AVERAGED values of measurement features collected, grouped for each volunteer and activity performed.
