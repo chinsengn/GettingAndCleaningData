@@ -1,4 +1,4 @@
-@@ -1,44 +0,0 @@
+
 # ReadMe for run_analysis.R
 
 This .R script consist of 5 parts.
@@ -38,9 +38,8 @@ With **all_data**,
 -   since we are not using them, throw out the **data_typ, activity** col by using ```-dat_typ, -activity``` in the ```select```,
 -  then ```group_by``` dataset by **activity_nm** and **subject_id**,
 -  then ```summarise_each``` of the measurement variables by computing their ```mean```
--  write the summarised data set into external csv file - _summ_data.csv_ in the same path as this .R script
+-  write the summarised data set into external txt file - _summ_data.txt_ in the same path as this .R script
 
 Note that col names of the measurement variables were **not changed** after the ```summarise_each``` function but their values are.
 
-The output of Part 5 is a data frame - _summ_data.csv_ (180 x 81)
-\ No newline at end of file
+The output of Part 5 is a text file - _summ_data.txt_ (180 x 81)
