@@ -1,4 +1,4 @@
-@@ -1,56 +0,0 @@
+
 # Summ_data.csv Data Dictionary
 
 ## 180 rows x 81 cols
@@ -21,11 +21,17 @@ denotes the 6 activities performed
 - LAYING
 
 
+| Name | Description          |
+| ------------- | ----------- |
+| Help      | ~~Display the~~ help window.|
+| Close     | _Closes_ a window     |
+
 ___
 
 #### The following 79 fields are the AVERAGED values of measurement features collected, grouped for each volunteer and activity performed.
-|	|	|	|	|	|	|
-| -	| -	| -	| -	| -	| -	|
+
+|        |        |        |        |        |        |
+| ------ | ------ | ------ | ------ | ------ | ------ |
 |tBodyAcc-mean()-X	|tBodyAccJerk-mean()-Z	|tBodyGyroJerk-std()-Y	|fBodyAcc-mean()-Z	|fBodyAccJerk-meanFreq()-Y	|fBodyBodyAccJerkMag-mean()	|
 |tBodyAcc-mean()-Y	|tBodyAccJerk-std()-X	|tBodyGyroJerk-std()-Z	|fBodyAcc-std()-X	|fBodyAccJerk-meanFreq()-Z	|fBodyBodyAccJerkMag-std()	|
 |tBodyAcc-mean()-Z	|tBodyAccJerk-std()-Y	|tBodyAccMag-mean()	|fBodyAcc-std()-Y	|fBodyGyro-mean()-X	|fBodyBodyAccJerkMag-meanFreq()	|
@@ -43,9 +49,10 @@ ___
 
 ___
 #### The above features are interpreted with the following naming conventions:
+
 |Feature label |Signal description	 |
-| - |	 - |
-|tAcc-XYZ|	 accelerometer 3-axial raw signals |
+| ------------ | ------------------- |
+|tAcc-XYZ      |	 accelerometer 3-axial raw signals |
 |tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ|	 Jerk signals |
 |tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag|	 Magnitude of three-dimensional signals calculated using the Euclidean norm |
 |tBodyAcc-XYZ|	 body acceleration signals |
@@ -55,4 +62,3 @@ ___
 | '-XYZ'|	 is used to denote 3-axial signals in the X, Y and Z directions|
 |mean()|	Mean value of signal|
 |std()|	Standard deviation of signal|
-\ No newline at end of file
